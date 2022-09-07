@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+#message {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 0 15px;
+}
+
+#message p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #721c24;
+}
+
+.section {
+  min-height: 100vh;
+  background-image: url(../images/background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 15px;
+}
+
+.section .main {
+  position: relative;
+  padding: 0 15px;
+}
+
+.main h1 {
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #fff;
+}
+
+.main-form {
+  max-width: 600px;
+  width: 100%;
+  margin: 30px auto;
+}
+
+.main-form input[type="text"] {
+  width: 100%;
+  padding: 10px 25px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  border-radius: 7px;
+  border: 1px solid #000;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-form input[type="text"]::-webkit-input-placeholder {
+  /* Edge */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.main-form input[type="text"]:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.main-form input[type="text"]::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.main-form textarea::-webkit-input-placeholder {
+  /* Edge */
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.main-form textarea:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.main-form textarea::placeholder {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.main-form textarea {
+  width: 100%;
+  padding: 10px 25px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  border: 1px solid #000;
+  border-radius: 7px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-form input[type="submit"] {
+  background-color: #fff;
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: all 0.7s ease-in-out;
+  border: 1px solid #fdce03;
+}
+
+.main-form input[type="submit"]:hover {
+  background-color: #fdce03;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+.list-section {
+  margin: 60px auto 0;
+  max-width: 1705px;
+}
+
+.list-section .task-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+
+.list-section .task-list .task {
+  position: relative;
+  min-width: 300px;
+  max-width: 500px;
+  width: 100%;
+  padding: 30px;
+  margin: 0 auto 50px;
+  background-color: #fdce03;
+  text-align: left;
+}
+
+.list-section .task-list .task h6 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.list-section .task-list .task p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.list-section .task-list .task p.date {
+  font-weight: 500;
+}
+
+.list-section .task-list .task svg {
+  position: relative;
+  fill: #fff;
+  width: 14px;
+  height: 14px;
+}
+
+.list-section .task-list .task .close-icon {
+  position: absolute;
+  top: -18px;
+  right: -15px;
+  background-color: #000;
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 0;
+  cursor: pointer;
+}
+
+.list-section .task-list td {
+  padding: 0 20px;
+}

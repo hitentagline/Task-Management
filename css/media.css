@@ -1,0 +1,39 @@
+@media (max-width: 1440px) {
+  .list-section .task-list {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section {
+    padding: 20px 15px;
+  }
+
+  .main h1 {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .list-section .task-list .task {
+    max-width: 100%;
+  }
+
+  .main h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+  }
+
+  .list-section .task-list td {
+    padding: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .list-section .task-list .task {
+    min-width: 260px;
+  }
+}
